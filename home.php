@@ -11,13 +11,6 @@
     <link rel="stylesheet" href="css4/bootstrap.css">
     <script src="js4/bootstrap.js"></script>
     <script src="jquery.js"></script>
-
-
-
-
-
-
-
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/4.6/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/4.6/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -29,355 +22,142 @@
     <meta name="theme-color" content="#563d7c">
 
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-
-        /*
- * Globals
- */
-
-        /* Links */
-        a,
-        a:focus,
-        a:hover {
-            color: #fff;
-        }
-
-        /* Custom default button */
-        .btn-secondary,
-        .btn-secondary:hover,
-        .btn-secondary:focus {
-            color: #333;
-            text-shadow: none;
-            /* Prevent inheritance from `body` */
-            background-color: #fff;
-            border: .05rem solid #fff;
-        }
-
-
-        /*
- * Base structure
- */
-
-        html,
-        body {
-            height: 100%;
-            background-color: #333;
-        }
-
-        body {
-            display: -ms-flexbox;
-            display: flex;
-            color: #fff;
-            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-        }
-
-        .cover-container {
-            max-width: 42em;
-        }
-
-
-        /*
- * Header
- */
-        .masthead {
-            margin-bottom: 2rem;
-        }
-
-        .masthead-brand {
-            margin-bottom: 0;
-        }
-
-        .nav-masthead .nav-link {
-            padding: .25rem 0;
-            font-weight: 700;
-            color: rgba(255, 255, 255, .5);
-            background-color: transparent;
-            border-bottom: .25rem solid transparent;
-        }
-
-        .nav-masthead .nav-link:hover,
-        .nav-masthead .nav-link:focus {
-            border-bottom-color: rgba(255, 255, 255, .25);
-        }
-
-        .nav-masthead .nav-link+.nav-link {
-            margin-left: 1rem;
-        }
-
-        .nav-masthead .active {
-            color: #fff;
-            border-bottom-color: #fff;
-        }
-
-        @media (min-width: 48em) {
-            .masthead-brand {
-                float: left;
-            }
-
-            .nav-masthead {
-                float: right;
-            }
-        }
-
-
-        /*
- * Cover
- */
-        .cover {
-            padding: 0 1.5rem;
-        }
-
-        .cover .btn-lg {
-            padding: .75rem 1.25rem;
-            font-weight: 700;
-        }
-
-
-        /*
- * Footer
- */
-        .mastfoot {
-            color: rgba(255, 255, 255, .5);
-        }
-    </style>
 
 </head>
 
-<body class="text-center">
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column ">
-        <header class="masthead mb-auto">
-            <div class="inner fixed-top p-2 pr-4 " style="z-index: 2;">
-
-                <h3><a class="nav-link text-decoration-none ml-4 masthead-brand  " href="#">Portfolio</a></h3>
-                <nav class="nav nav-masthead justify-content-center ">
-                  
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link " href="#works">Works</a>
-                    
-                    <a class="nav-link" href="#techstack">Tech Stack</a>
-                    <a class="nav-link" href="#projects">Projects</a>
-                    <a class="nav-link" href="#social">Social</a>
-                    <a class="nav-link" href="#resume">Resume</a>
-                    <a class="nav-link" href="#contact">Contact</a>
-                    <a class="nav-link" href="#about">About</a>
-                </nav>
-            </div>
-        </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="container">
-            <main role="main" class="inner cover">
-                <h1 class="cover-heading">Kuldeep Sharma</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="works">
-                <h1 class="cover-heading">Works</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="techstack">
-                <h1 class="cover-heading">Tech Stack</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="projects">
-                <h1 class="cover-heading">Projects</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="social">
-                <h1 class="cover-heading">Social</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="resume">
-                <h1 class="cover-heading">Resume</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="contact">
-                <h1 class="cover-heading">Contact</h1>
-                <p class="lead">I am learning Bootstrap </p>
-
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-        <div class="container">
-            <main role="main" class="inner cover" id="about">
-
-                <h1 class="cover-heading">About</h1>
-                <p class="lead">I am learning Bootstrap </p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                </p>
-            </main>
-        </div>
-
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Sample Website <a href="https://hytek.org.in">HYTEK</a>, by <a href="https://github.com/kuldeepsharma1">@kuldeepsharma</a>.</p>
-            </div>
-        </footer>
+<body>
+
+<div class="container">
+    
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+<form>
+  <div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        </div>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">City</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">State</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Zip</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</div>
+
 
 
     <script src="js4/bootstrap.js"></script>
