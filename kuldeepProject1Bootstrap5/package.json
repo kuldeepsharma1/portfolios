@@ -4,7 +4,7 @@
   "description": "Learning bootstrap v5 with sass",
   "main": "index.js",
   "scripts": {
-   "compile:sass": "sass --watch scss:assets/css"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "keywords": [
     "Bootstrap",
@@ -13,13 +13,14 @@
     "learn-bootstrap",
     "learn-sass"
   ],
-  "author": "Patrick Muriungi",
+  "author": "kuldeep sharma",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.32.12"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.2.2",
+    "dart-sass": "^1.25.0"
   }
 }
